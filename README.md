@@ -8,5 +8,6 @@ Summary the essence, and Help the community
 
 ##Terminal Notes##
 1. [Beginner Terminal](https://github.com/xipingsg/ReadingNotes/blob/master/Github_Notes.md)
+
 ##Font-End Notes##
 1. [HTML5 Notes](https://github.com/xipingsg/ReadingNotes/blob/master/HTML5_Notes.md)
