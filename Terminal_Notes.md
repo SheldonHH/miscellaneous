@@ -22,3 +22,6 @@ In Case *User doesnot have permission to delete the folder:*
 ####3. Show Hidden Files and Hide Hidden Files
 defaults write com.apple.finder AppleShowAllFiles YES
 Press `Option` and Write 
+
+####4. Open a file with a specific Application
+eg:`$ open -a "Sublime Text" id_rsa` 
