@@ -1,3 +1,5 @@
+/*http://viralpatel.net/blogs/varargs-in-java-variable-argument-method-in-java-5/
+*/
 public class HelloWorldVarargs {
  
     public static void main(String args[]) {
