@@ -1,0 +1,22 @@
+ public class BufferedReaderDeleteWord{
+	 public static void Option2Method() throws IOException 
+	 {
+	   File inputFile = new File("wordlist.txt");
+	   File tempFile = new File("TempWordlist.txt");
+
+	   BufferedReader reader = new BufferedReader(new FileReader(inputFile));
+   	   BufferedWriter writer = new BufferedWriter(new FileWriter(tempFile));
+	   String lineToRemove = "//u3000";
+	   String currentLine;
+	    while((currentLine = reader.readLine()) != null){
+		   String trimmedLine = currentLine.trim();
+		   if(trimmedLine.equals(lineToRemove)) continue;
+		   writer.write(currentLine);
+ 		}
+
+		 writer.close();
+		 reader.close();
+
+	}
+
+}

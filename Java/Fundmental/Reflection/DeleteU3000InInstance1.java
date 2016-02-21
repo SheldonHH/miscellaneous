@@ -5,9 +5,15 @@ public class DeleteU3000InInstance1{
         File file = new File("Instance1.java");  // create File object to read from
         Scanner scanner = new Scanner(file);       // create scanner to read
         Printwriter writer = new PrintWriter("Instance2.java"); // create file to write to
-
+        while (scanner.hasNextLine()) {
+            String nextToken = scanner.next();
+            if (nextToken.equalsIgnoreCase("\\u3000"))){
+                 newLine += line.charAt(i);
+            }
+         
         while(scanner.hasNextLine()){  // while there is a next line
-            String line = scanner.nextLine();  // line = that next line
+            
+            String nextToken = scanner.next(); // line = that next line
 
             // do something with that line
             String newLine = "";
