@@ -1,0 +1,1 @@
+ javac -cp $CLASSPATH:/Users/apple/Coding/Java_Tea/ReadingNotes/Java/Fundmental/Takeaway From Practice Lesuoruanti/FileUtils/java2.jar ClearDirectory.java

@@ -8,7 +8,7 @@
 　　System.out.println(b1);
 　　boolean b2 = cls.isInstance(new A());
 　　System.out.println(b2);
-　　} catch (Throwable e) {
+　　} catch (Throwable e) {地方撒地方
 　　System.err.println(e);
 　}
 　　}

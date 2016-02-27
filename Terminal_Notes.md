@@ -25,3 +25,12 @@ Press `Option` and Write
 
 ####4. Open a file with a specific Application
 eg:`$ open -a "Sublime Text" id_rsa` 
+
+
+
+####5. Logout the super user and go back to your account.
+`exit`
+
+
+####6. Change the owner of a file system object (files and directories).
+sudo chown -R $USER /usr/local
