@@ -33,4 +33,11 @@ eg:`$ open -a "Sublime Text" id_rsa`
 
 
 ####6. Change the owner of a file system object (files and directories).
-sudo chown -R $USER /usr/local
+`sudo chown -R $USER /usr/local`
+
+
+
+
+####7. Logout the super user and go back to your account.
+`sudo mv fromPath/ toPath/`
+eg:`sudo mv /Users/apple/DynamicPrograme /Users/apple/Coding/ `
