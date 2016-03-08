@@ -1,4 +1,5 @@
 // http://blog.csdn.net/vebasan/article/details/6193916
+// http://www.tutorialspoint.com/java/java_basic_operators.htm
 public class SignTest{
 	public static void main(String []args){
 
